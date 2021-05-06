@@ -61,9 +61,7 @@ class RemoteTemplate(Template):
         return True
 
 def main():
-    template = RemoteTemplate()
-    template.set_tags(r"C:\Users\motig\OneDrive\ראשי\ז. לימודים כלליים\ב. מכללה\שנה א\סמסטר ב\חדוא 1\חומר\הרצאות\hedva_har_27.4.mp4")
-    template.save()
+    pass
 
 if __name__ == '__main__':
     main()

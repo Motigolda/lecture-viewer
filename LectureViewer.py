@@ -2,7 +2,7 @@ import requests
 import webbrowser
 from Template import *
 
-PATH_TEMPLATE = r"C:\Users\motig\OneDrive\ראשי\ג. מחשבים\Laboratory\Projects\ShowLecture"
+PATH_TEMPLATE = """sanitized """
 
 class LectureViewer():
     def __init__(self, video_path, title="Lecture",description=""):
