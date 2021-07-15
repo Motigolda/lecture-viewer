@@ -73,6 +73,9 @@
 					document.getElementById("speed").value = vid.playbackRate;
 					 
 				}
+				window.addEventListener('blur', function() {
+  					 document.getElementById("myVideo").pause();
+				});
 			</script> 
 		</center>
 	</body>
